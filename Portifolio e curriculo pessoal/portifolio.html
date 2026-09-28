@@ -5,82 +5,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo Pessoal</title>
 </head>
+
 <body>
-   <h1><p><strong>Nicolle Lima Balera- Desenvolvedora Web</strong></p></h1>
-   <p><a href="#SobreMim">• Sobre</a>
-    <br> <a href="#Projetos">• Projetos</a><br>
-<a href="#Entreemcontato">• Contato</a>
-<hr> 
-<h2><p><strong>Sobre Mim</strong></p></h2>
- <img src="assets/fotocurriculo.jpeg.JPG" alt="Clique aqui" width="150" height="200">
-<p>Sou uma estudante de <strong>Desenvolvimento de Sistemas</strong> do SENAI SP</p>
-<p>Tenho conhecimento em <em> HTML,CSS</em> e estou aprendendo <em>Javascript.</em></p>
-<h2><p><strong>Minhas Habilidades:</strong></p></h2>
-                    <li>•HTML5 Semântico</li>
-                    <li>•CSS3 e Responsividade</li>
-                    <li>•Formulários e Validação</li>
-                    <li>•Estruturação de Dados</li>
-                    </ol>
-<hr>
-<h2><p><strong>Meus Projetos:</strong></p></h2>
- <table border="1" aula="#Projetos">
+
+    <h1>
+        <strong>Nicolle Lima Balera - Desenvolvedora Web</strong>
+    </h1>
+
+    <p>
+        <a href="#SobreMim">• Sobre</a><br>
+        <a href="#Projetos">• Projetos</a><br>
+        <a href="#Entreemcontato">• Contato</a>
+    </p>
+
+    <hr>
+
+    <!-- SOBRE MIM -->
+
+    <h2 id="SobreMim">
+        <strong>Sobre Mim</strong>
+    </h2>
+
+    <img src="assets/fotocurriculo.jpeg.JPG" alt="Foto de Nicolle" width="150" height="200">
+
+    <p>
+        Sou uma estudante de <strong>Desenvolvimento de Sistemas</strong> do SENAI SP.
+    </p>
+
+    <p>
+        Tenho conhecimento em <em>HTML e CSS</em> e estou aprendendo <em>JavaScript.</em>
+    </p>
+
+    <h2>
+        <strong>Minhas Habilidades:</strong>
+    </h2>
+
+    <ul>
+        <li>HTML5 Semântico</li>
+        <li>CSS3 e Responsividade</li>
+        <li>Formulários e Validação</li>
+        <li>Estruturação de Dados</li>
+    </ul>
+
+    <hr>
+
+    <!-- PROJETOS -->
+
+    <h2 id="Projetos">
+        <strong>Meus Projetos:</strong>
+    </h2>
+
+    <table border="1">
+
         <thead>
+
             <tr>
                 <th>Projeto</th>
                 <th>Tecnologias</th>
                 <th>Status</th>
                 <th>Link</th>
             </tr>
-            <tbody>
+
+        </thead>
+
+        <tbody>
+
             <tr>
                 <td>Desafio Game Zone</td>
                 <td>HTML</td>
                 <td>Concluído</td>
-                 <td><a href="https://github.com/baleranicolle/Atividade-lima/tree/main" target="_blank">Ver projeto</a></td>
+                <td>
+                    <a href="https://github.com/baleranicolle/Atividade-lima/tree/main" target="_blank">
+                        Ver projeto
+                    </a>
+                </td>
             </tr>
+
             <tr>
                 <td>Conceitos Básicos do PHP</td>
                 <td>PHP</td>
                 <td>Concluído</td>
-                <td><a href="https://github.com/baleranicolle/php-exemplos-basicos" target="_blank">Ver projeto</a></td>
+                <td>
+                    <a href="https://github.com/baleranicolle/php-exemplos-basicos" target="_blank">
+                        Ver projeto
+                    </a>
+                </td>
             </tr>
+
             <tr>
-                <td>Algorítmo e Lógica</td>
-                <td>Java Script </td>
+                <td>Algoritmo e Lógica</td>
+                <td>JavaScript</td>
                 <td>Concluído</td>
-                <td><a href="https://github.com/baleranicolle/algoritmos-logico" target="_blank">Ver projeto</a></td>
+                <td>
+                    <a href="https://github.com/baleranicolle/algoritmos-logico" target="_blank">
+                        Ver projeto
+                    </a>
+                </td>
             </tr>
-          </tbody>
-         </thead>
-      </table>
-      <hr>
-      <h2><p><strong>Entre em contato</strong></p></h2>
-       <form>
+
+        </tbody>
+
+    </table>
+
+    <hr>
+
+    <!-- CONTATO -->
+
+    <h2 id="Entreemcontato">
+        <strong>Entre em contato</strong>
+    </h2>
+
+    <form>
 
         <fieldset>
+
             <legend>Dados do Contato</legend>
 
-            <label for="nome">Nome:</label><br>
+            <label for="nome">Nome:</label>
+            <br>
+
             <input type="text" id="nome" name="nome">
 
             <br><br>
 
-            <label for="email">Email:</label><br>
+            <label for="email">Email:</label>
+            <br>
+
             <input type="email" id="email" name="email">
 
             <br><br>
 
-            <label for="assunto">Assunto:</label><br>
+            <label for="assunto">Assunto:</label>
+            <br>
+
             <select id="assunto" name="assunto">
+
                 <option>Oportunidade de Trabalho</option>
                 <option>Dúvida</option>
                 <option>Sugestão</option>
                 <option>Outro</option>
+
             </select>
 
             <br><br>
 
-            <label for="mensagem">Mensagem:</label><br>
+            <label for="mensagem">Mensagem:</label>
+            <br>
+
             <textarea id="mensagem" name="mensagem" rows="6" cols="25"></textarea>
 
             <br><br>
@@ -90,10 +161,18 @@
         </fieldset>
 
     </form>
-<p>© 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
-<hr>
-<p><a href="baleranicolle@gmail.com">baleranicolle@gmail.com | <a href="(11)912972009">(11)912972009</a>
-    
+
+    <p>© 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+
+    <hr>
+
+    <p>
+        <a href="mailto:baleranicolle@gmail.com">baleranicolle@gmail.com</a>
+        |
+        <a href="tel:+5511912972009">(11) 91297-2009</a>
+    </p>
 
 </body>
+
 </html>
+
